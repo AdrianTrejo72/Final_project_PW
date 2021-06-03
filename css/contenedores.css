@@ -1,0 +1,55 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	height: 100vh;	
+}
+
+#nuevos{
+	float: left;
+	height: 600px;
+	width: 600px;
+	margin-top: 200px;
+	
+}
+
+#regist{
+	float: right;
+	height: 600px;
+	width: 650px;
+	margin-top: 200px;
+	margin-left: 60px;
+}
+
+#textoR{
+	float: left;
+	height: 400px;
+	width: 400px;
+	
+}
+
+
+.button1{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    border: 2px solid #000029;
+    width: 10em;
+  }
+  .button1:hover{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+#iden{
+	margin-top: 200px;
+	padding: 100px;
+}

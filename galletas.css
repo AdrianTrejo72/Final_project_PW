@@ -1,0 +1,70 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.cookies-box {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    background: #010c4c;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+}
+.cookies-box .container-cookies {
+    padding: 20px 0;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+
+}
+.cookies-box .container-cookies .paragraphs p {
+    color: #fff;
+}
+.cookies-box .container-cookies .paragraphs p a {
+    color: #cccccc;
+    transition: all 300ms ease-in;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+}
+.cookies-box .container-cookies .paragraphs p a:hover {
+    color: #fff;
+}
+.cookies-box .container-cookies .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+.cookies-box .container-cookies .buttons button {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    transition: all 300ms ease-in;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+}
+.cookies-box .container-cookies .buttons button:hover {
+    color: #ffff00;
+    border: 2px solid #ffff00;
+}
+.cookies-box .container-cookies .buttons button:last-child {
+    margin-top: 5px;
+}
+
